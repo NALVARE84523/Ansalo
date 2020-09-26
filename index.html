@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Reto Ansalo</title>
+</head>
+<body>
+    <head>
+
+    </head>
+    <div class="contenedor-form">
+        <h1>Reto Ansalo</h1>
+        <div>
+            <label >Letras</label>
+            <div id="resultadoA"></div>
+
+        </div>
+        <div>
+            <label>Numeros</label>
+            <div id="resultado1"></div>
+        </div>
+        <div  class="l">
+            <label>Tema oscuro</label>
+            <button class="negro1" id="negro1">
+                <span><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span>
+            </button>
+            <label >Tema retro</label>
+            <button class="negro1" id="retro">
+                <span><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span>
+            </button>
+        </div>
+        <!-- <div class="l">
+            <label >Tema retro</label>
+            <button class="negro1" id="retro">
+                <span><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span>
+            </button>
+        </div> -->
+        <div class="pantalla">
+        </div>
+        <div class="teclas">
+            <div class="numeros">
+                <div>
+                <button onclick="A1()" type="button" class="btn btn-primary" id="btnResultadoA1">A-1</button>
+                <button onclick="B2()" type="button" class="btn btn-primary" id="btnResultadoB2">B-2</button>
+                <button onclick="C3()" type="button" class="btn btn-primary" id="btnResultadoC3">C-3</button>
+                </div>
+                <div>
+                <button onclick="D4()" type="button" class="btn btn-primary" id="btnResultadoD4">D-4</button>
+                <button onclick="E5()" type="button" class="btn btn-primary" id="btnResultadoE5">E-5</button>
+                <button onclick="F6()" type="button" class="btn btn-primary" id="btnResultadoF6">F-6</button>
+                </div>
+                <div>
+                <button onclick="G7()" type="button" class="btn btn-primary" id="btnResultadoG7">G-7</button>
+                <button onclick="H8()" type="button" class="btn btn-primary" id="btnResultadoH8">H-8</button>
+                <button onclick="I9()" type="button" class="btn btn-primary" id="btnResultadoI9">I-9</button>
+                </div>
+                <div>
+                <button onclick="calc1()" type="button" class="btn btn-primary" id="calc">C</button>
+                <button onclick="J0()" type="button" class="btn btn-primary" id="btnResultadoJ0">J-0</button>
+                <button onclick="reset1()" type="button" class="btn btn-primary" id="reset">R</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
